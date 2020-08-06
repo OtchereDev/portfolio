@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #0E0E0E;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-left: 1%;
+    align-items: center;
+    /* position: fixed;
+    z-index: 1000; */
+}
+
+nav .nav-links {
+    display: none;
+}
+
+nav .logo {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+nav .logo img {
+    max-width: 40%;
+}
+
+nav .toggler {
+    padding-left: 3%;
+}
+
+nav .toggler i {
+    font-size: 2rem;
+}
+
+
+/* Hero Section */
+
+main .hero {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+main .hero .left {
+    width: 100%;
+    padding-top: 20%;
+    text-align: center;
+}
+
+main .hero .left h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+main .hero .left .first {
+    margin-bottom: 2%;
+}
+
+main .hero .left h1 {
+    font-size: 3.5rem;
+    margin-bottom: 3%;
+}
+
+main .hero .left .out {
+    font-size: 2.5rem;
+}
+
+main .middle {
+    padding-right: 8%;
+    padding-left: 8%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+main .middle .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main .middle .left img {
+    max-width: 90%;
+    margin: auto;
+    filter: grayscale(1);
+}
+
+main .middle .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 25%;
+}
+
+main .middle .right h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+main .middle .right .middle-social {
+    width: 70%;
+    margin-top: 3%;
+}
+
+main .middle .right .middle-social ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+main .middle .right .middle-social ul li {
+    list-style: none;
+}
+
+main .middle .right .middle-social ul li a {
+    text-decoration: none;
+}
+
+main .middle .right .middle-social ul li a div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+main .middle .right .middle-social ul li a div i {
+    font-size: 35px;
+}
+
+body {
+    background-image: url(asset/heroBg.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+main .works {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 10%;
+    position: relative;
+}
+
+main .works h1 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+main .works .work {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.one,
+.two,
+.three,
+.four {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.one img,
+.two img,
+.three img,
+.four img {
+    max-width: 100%;
+    filter: grayscale(1);
+}
+
+main .jxt-img {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .jxt-img .normal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+main .jxt-img .normal .abnormal {
+    width: 100%;
+    text-align: center;
+}
+
+main .jxt-img .normal .abnormal img {
+    max-width: 60%;
+}
+
+main .jxt-img .normal .text {
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: 400;
+}
+
+main .jxt-img .normal .text h1 {
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+main .jxt-img .normal .text span {
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+main .jxt-img .my-pic {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .jxt-img .my-pic img {
+    width: 350px;
+}
+
+main .about {
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+main .about h1 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+main .about .abt-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .about .abt-cont .cont {
+    width: 100%;
+}
+
+main .about .abt-cont .cont h2 {
+    font-size: 2rem;
+}
+
+main .about .abt-cont .cont h4 {
+    font-weight: 400;
+    font-size: 2.3rem;
+    text-align: justify;
+}
+
+main .links {
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+main .links h1 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+main .links .link-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .links .link-cont .left,
+main .links .link-cont .right {
+    width: 100%;
+}
+
+main .links .link-cont .left ul,
+main .links .link-cont .right ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+main .links .link-cont .left ul li a,
+main .links .link-cont .right ul li a {
+    color: #ffffff;
+    font-size: 2.3rem;
+    text-decoration: none;
+}
+
+main .contacts {
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+main .contacts h1 {
+    font-size: 2rem;
+    margin-bottom: 3%;
+    width: 80%;
+}
+
+main .contacts .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .contacts .main .contact-info {
+    width: 100%;
+}
+
+main .contacts .main .contact-info h4 {
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+main .contacts .main .form {
+    width: 100%;
+}
+
+main .contacts .main .contact-info .social {
+    width: 70%;
+    margin-top: 3%;
+}
+
+main .contacts .main .contact-info .social ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+main .contacts .main .contact-info .social ul li a {
+    text-decoration: none;
+}
+
+main .contacts .main .contact-info .social ul li a div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+main .contacts .main .contact-info .social ul li a div i {
+    font-size: 35px;
+}
+
+main .contacts .main .form {
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    margin-top: 10%;
+}
+
+main .contacts .main .form .form-form {
+    width: 80%;
+}
+
+main .contacts .main .form .btn {
+    width: 20%;
+}
+
+main .contacts .main .form .btn .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 1px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+main .contacts .main .form .form-form h3 {
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+}
+
+main .contacts .main .form .form-form #name,
+main .contacts .main .form .form-form #email,
+main .contacts .main .form .form-form #message {
+    width: 100%;
+    border-style: none none solid none;
+    border-color: #cfcfcf;
+    border-width: 2px;
+    background-color: transparent;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    outline: none;
+    color: #ffffff;
+    font-style: 'Nunito', sans-serif;
+}
+
+main .contacts .main .form .form-form #name,
+main .contacts .main .form .form-form #email {
+    height: 3rem;
+}
+
+main .contacts .main .form .form-form #name::placeholder,
+main .contacts .main .form .form-form #email::placeholder,
+main .contacts .main .form .form-form #message::placeholder {
+    font-style: 'Nunito', sans-serif;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.menu-btn {
+    position: relative;
+    margin: 1em;
+    font-size: 24px;
+}
+
+.menu-btn:focus ion-icon {
+    visibility: hidden;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #121212;
+    opacity: 0;
+}
+
+.close-menu {
+    position: fixed;
+    margin: 1em;
+    font-size: 24px;
+    color: #fff;
+    z-index: 1;
+}
+
+.nav {
+    position: absolute;
+    left: 21%;
+    margin-top: 8%;
+    font-size: 1.5rem;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.main-menu-item {
+    padding-top: 30px;
+}
+
+.main-menu-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.submenu-item a {
+    color: grey;
+}
+
+.submenu li {
+    margin: 20px 0;
+}
+
+a ion-icon {
+    position: relative;
+    font-size: 9px;
+    opacity: 0.4;
+    color: yellow;
+}
+
+.submenu {
+    display: none;
+}
+
+.contact {
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    right: 24%;
+}
+
+.contact p {
+    font-weight: lighter;
+    color: grey;
+    font-family: "Helvetica";
+}
+
+.media {
+    position: absolute;
+    bottom: 70px;
+    left: 22%;
+}
+
+.media ul {
+    list-style: none;
+}
+
+.media ul li {
+    display: inline-block;
+    color: grey;
+    font-weight: lighter;
+    padding-right: 16px;
+}
+
+@media screen and (min-width:960px) {
+    nav {
+        padding-top: 3%;
+        position: fixed;
+        z-index: 100;
+    }
+    nav .nav-links {
+        width: 80%;
+        display: block;
+    }
+    nav .nav-links ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav .nav-links ul li {
+        list-style: none;
+    }
+    nav .nav-links ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 2rem;
+    }
+    nav .logo img {
+        max-width: 20%;
+    }
+    nav .menu-btn {
+        display: none;
+    }
+    main .hero .left {
+        padding-top: 20%;
+    }
+    main .hero .left h1 {
+        font-size: 4.5rem;
+    }
+    main .middle {
+        flex-direction: row;
+    }
+    main .middle .left {
+        width: 50%;
+    }
+    main .middle .left img {
+        max-width: 60%;
+    }
+    main .middle .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    main .middle .right h2 {
+        font-size: 6rem;
+        text-transform: uppercase;
+    }
+    main .middle .right .middle-social {
+        width: 50%;
+    }
+    main .middle .right {
+        padding-top: 5%;
+    }
+    main .works .work {
+        flex-direction: row;
+    }
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 50%;
+        margin-top: 3%;
+    }
+    main .works h1 {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 3%;
+        left: 1%;
+        transform: rotate(296deg);
+    }
+    main .jxt-img {
+        height: 40rem;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+    main .jxt-img .normal {
+        width: 50%;
+    }
+    main .jxt-img .normal .abnormal {
+        width: 50%;
+        margin: auto;
+    }
+    main .jxt-img .normal .abnormal img {
+        max-width: 100%;
+    }
+    main .jxt-img .normal .text {
+        font-size: 5rem;
+    }
+    main .jxt-img .my-pic {
+        width: 50%;
+    }
+    main .jxt-img .my-pic img {
+        width: 600px;
+    }
+    main .about .abt-cont {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    main .about .abt-cont .cont {
+        width: 45%;
+    }
+    main .links .link-cont {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    main .links .link-cont .left,
+    main .links .link-cont .right {
+        width: 45%;
+    }
+    main .links .link-cont .left ul,
+    main .links .link-cont .right ul {
+        text-align: left;
+    }
+    main .contacts .main {
+        flex-direction: row;
+    }
+    main .contacts .main .contact-info {
+        width: 30%;
+    }
+    main .contacts .main .form {
+        width: 70%;
+        padding-left: 5%;
+        display: flex;
+        margin-top: 0;
+    }
+    main .contacts .main .form .form-form {
+        width: 90%;
+    }
+    main .contacts .main .form .btn {
+        width: 10%;
+    }
+    main .contacts .main .form .btn .button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: solid 1px #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    main .contacts .main .form .form-form h3 {
+        margin-bottom: 2%;
+        font-size: 2rem;
+        font-family: 'Nunito', sans-serif;
+        text-transform: uppercase;
+    }
+    main .contacts .main .form .form-form #name,
+    main .contacts .main .form .form-form #email,
+    main .contacts .main .form .form-form #message {
+        width: 80%;
+        border-style: none none solid none;
+        border-color: #cfcfcf;
+        border-width: 2px;
+        background-color: transparent;
+        margin-bottom: 2%;
+        padding-left: 5%;
+        outline: none;
+        color: #ffffff;
+        font-style: 'Nunito', sans-serif;
+    }
+    main .contacts .main .form .form-form #name,
+    main .contacts .main .form .form-form #email {
+        height: 3rem;
+    }
+    main .contacts .main .form .form-form #name::placeholder,
+    main .contacts .main .form .form-form #email::placeholder,
+    main .contacts .main .form .form-form #message::placeholder {
+        font-style: 'Nunito', sans-serif;
+    }
+}
